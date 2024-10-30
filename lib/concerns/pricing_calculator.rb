@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class PricingCalculator # rubocop:disable Style/Documentation
-  def initializinf(pricing_rules)
+  def initializing(pricing_rules)
     @pricing_rules = pricing_rules
   end
 
