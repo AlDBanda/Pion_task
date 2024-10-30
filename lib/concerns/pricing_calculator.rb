@@ -29,12 +29,18 @@ class PricingCalculator # rubocop:disable Style/Documentation
         price * count
       end
     when :banana
-      (price / 2) * count
+      price * count / 2
     when :pineapple
       if count > 1
         (price / 2) + (price * (count - 1))
       else
         price
+      end
+    when :mango
+      if (count % 4).zero?
+        price * (count - (count / 4))
+      else
+        price * count
       end
     else
       price * count
