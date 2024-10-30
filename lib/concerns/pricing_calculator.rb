@@ -1,18 +1,18 @@
 # lib/concerns/pricing_calculator.rb
 class PricingCalculator
   def initialize(pricing_rules)
+    validate_pricing_rules(pricing_rules)
     @pricing_rules = pricing_rules
   end
 
-  def calculate_total(basket)
-    total = 0
-    item_counts = count_items(basket)
+  private
 
-    item_counts.each do |item, count|
-      total += get_price_with_discount(item, count)
+  def validate_pricing_rules(rules)
+    raise InvalidPriceError, 'Pricing rules cannot be empty' if rules.nil? || rules.empty?
+
+    rules.each do |item, price|
+      raise InvalidPriceError, "Invalid price for #{item}: #{price}" unless price.is_a?(Numeric) && price > 0
     end
-
-    total
   end
 
   private
