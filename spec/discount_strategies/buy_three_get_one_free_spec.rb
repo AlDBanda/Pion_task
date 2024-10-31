@@ -1,4 +1,5 @@
 # spec/discount_strategies/buy_three_get_one_free_spec.rb
+require 'spec_helper'
 RSpec.describe BuyThreeGetOneFreeStrategy do
   subject(:strategy) { described_class.new }
 

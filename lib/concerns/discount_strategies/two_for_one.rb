@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+# lib/concerns/discount_strategies/two_for_one.rb
 
 class TwoForOneStrategy
   def calculate(price, count)

@@ -1,4 +1,5 @@
 # spec/discount_strategies/two_for_one_spec.rb
+require 'spec_helper'
 RSpec.describe TwoForOneStrategy do
   subject(:strategy) { described_class.new }
 
