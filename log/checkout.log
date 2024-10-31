@@ -1,0 +1,290 @@
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 30
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: apple
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: orange
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:apple, :orange]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for apple x1: 10
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:00:44 +0000: INFO -- Final total: 30
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 30
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: apple
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: apple
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:apple, :apple]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:00:44 +0000: INFO -- Final total: 10
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 10
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: apple
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: apple
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: orange
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:apple, :apple, :orange]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:00:44 +0000: INFO -- Final total: 30
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 30
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: pear
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: pear
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:pear, :pear]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for pear x2: 15
+2024-10-31 07:00:44 +0000: INFO -- Final total: 15
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 15
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: pear
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: pear
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: banana
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:pear, :pear, :banana]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for pear x2: 15
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:00:44 +0000: INFO -- Final total: 30
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 30
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: banana
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:banana]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:00:44 +0000: INFO -- Final total: 15
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 15
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: pineapple
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: pineapple
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:pineapple, :pineapple]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for pineapple x2: 150
+2024-10-31 07:00:44 +0000: INFO -- Final total: 150
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 150
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: mango
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: mango
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: mango
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: mango
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:mango, :mango, :mango, :mango]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for mango x4: 600
+2024-10-31 07:00:44 +0000: INFO -- Final total: 600
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 600
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :banana=>30}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :banana=>30}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: apple
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: orange
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: banana
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:apple, :orange, :banana]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for apple x1: 10
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:00:44 +0000: INFO -- Final total: 45
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 45
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :banana=>30}
+2024-10-31 07:00:44 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :banana=>30}
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: apple
+2024-10-31 07:00:44 +0000: INFO -- Item scanned: apple
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:apple, :apple]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:00:44 +0000: INFO -- Final total: 10
+2024-10-31 07:00:44 +0000: INFO -- Total calculated: 10
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:orange]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:00:44 +0000: INFO -- Final total: 20
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:orange, :orange]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for orange x2: 40
+2024-10-31 07:00:44 +0000: INFO -- Final total: 40
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:apple, :apple]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:00:44 +0000: INFO -- Final total: 10
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:pear, :pear]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for pear x2: 15
+2024-10-31 07:00:44 +0000: INFO -- Final total: 15
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:apple, :apple, :apple]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for apple x3: 30
+2024-10-31 07:00:44 +0000: INFO -- Final total: 30
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:banana]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:00:44 +0000: INFO -- Final total: 15
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:banana, :banana]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for banana x2: 30
+2024-10-31 07:00:44 +0000: INFO -- Final total: 30
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:pineapple]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for pineapple x1: 50
+2024-10-31 07:00:44 +0000: INFO -- Final total: 50
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:pineapple, :pineapple]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for pineapple x2: 150
+2024-10-31 07:00:44 +0000: INFO -- Final total: 150
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:mango, :mango, :mango, :mango]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for mango x4: 600
+2024-10-31 07:00:44 +0000: INFO -- Final total: 600
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:mango, :mango, :mango]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for mango x3: 600
+2024-10-31 07:00:44 +0000: INFO -- Final total: 600
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:invalid]
+2024-10-31 07:00:44 +0000: ERROR -- Invalid item attempted: invalid
+2024-10-31 07:00:44 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:00:44 +0000: INFO -- Calculating total for basket: [:apple, :apple, :banana, :orange, :pineapple]
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:00:44 +0000: INFO -- Subtotal for pineapple x1: 50
+2024-10-31 07:00:44 +0000: INFO -- Final total: 95
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 30
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: apple
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: orange
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:apple, :orange]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for apple x1: 10
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:02:31 +0000: INFO -- Final total: 30
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 30
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: apple
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: apple
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:apple, :apple]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:02:31 +0000: INFO -- Final total: 10
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 10
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: apple
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: apple
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: orange
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:apple, :apple, :orange]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:02:31 +0000: INFO -- Final total: 30
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 30
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: pear
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: pear
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:pear, :pear]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for pear x2: 15
+2024-10-31 07:02:31 +0000: INFO -- Final total: 15
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 15
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: pear
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: pear
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: banana
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:pear, :pear, :banana]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for pear x2: 15
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:02:31 +0000: INFO -- Final total: 30
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 30
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: banana
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:banana]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:02:31 +0000: INFO -- Final total: 15
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 15
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: pineapple
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: pineapple
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:pineapple, :pineapple]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for pineapple x2: 150
+2024-10-31 07:02:31 +0000: INFO -- Final total: 150
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 150
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: mango
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: mango
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: mango
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: mango
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:mango, :mango, :mango, :mango]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for mango x4: 600
+2024-10-31 07:02:31 +0000: INFO -- Final total: 600
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 600
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :banana=>30}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :banana=>30}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: apple
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: orange
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: banana
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:apple, :orange, :banana]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for apple x1: 10
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:02:31 +0000: INFO -- Final total: 45
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 45
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :banana=>30}
+2024-10-31 07:02:31 +0000: INFO -- Checkout initialized with rules: {:apple=>10, :orange=>20, :banana=>30}
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: apple
+2024-10-31 07:02:31 +0000: INFO -- Item scanned: apple
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:apple, :apple]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:02:31 +0000: INFO -- Final total: 10
+2024-10-31 07:02:31 +0000: INFO -- Total calculated: 10
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:orange]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:02:31 +0000: INFO -- Final total: 20
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:orange, :orange]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for orange x2: 40
+2024-10-31 07:02:31 +0000: INFO -- Final total: 40
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:apple, :apple]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:02:31 +0000: INFO -- Final total: 10
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:pear, :pear]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for pear x2: 15
+2024-10-31 07:02:31 +0000: INFO -- Final total: 15
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:apple, :apple, :apple]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for apple x3: 30
+2024-10-31 07:02:31 +0000: INFO -- Final total: 30
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:banana]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:02:31 +0000: INFO -- Final total: 15
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:banana, :banana]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for banana x2: 30
+2024-10-31 07:02:31 +0000: INFO -- Final total: 30
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:pineapple]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for pineapple x1: 50
+2024-10-31 07:02:31 +0000: INFO -- Final total: 50
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:pineapple, :pineapple]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for pineapple x2: 150
+2024-10-31 07:02:31 +0000: INFO -- Final total: 150
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:mango, :mango, :mango, :mango]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for mango x4: 600
+2024-10-31 07:02:31 +0000: INFO -- Final total: 600
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:mango, :mango, :mango]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for mango x3: 600
+2024-10-31 07:02:31 +0000: INFO -- Final total: 600
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:invalid]
+2024-10-31 07:02:31 +0000: ERROR -- Invalid item attempted: invalid
+2024-10-31 07:02:31 +0000: INFO -- PricingCalculator initialized with rules: {:apple=>10, :orange=>20, :pear=>15, :banana=>30, :pineapple=>100, :mango=>200}
+2024-10-31 07:02:31 +0000: INFO -- Calculating total for basket: [:apple, :apple, :banana, :orange, :pineapple]
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for apple x2: 10
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for banana x1: 15
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for orange x1: 20
+2024-10-31 07:02:31 +0000: INFO -- Subtotal for pineapple x1: 50
+2024-10-31 07:02:31 +0000: INFO -- Final total: 95

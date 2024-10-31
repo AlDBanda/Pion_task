@@ -1,5 +1,6 @@
 # spec/discount_strategies/half_price_spec.rb
 require 'spec_helper'
+require_relative '../../lib/concerns/discount_strategies/half_price'
 RSpec.describe HalfPriceStrategy do
   subject(:strategy) { described_class.new }
 

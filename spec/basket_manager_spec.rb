@@ -1,29 +1,38 @@
 # spec/basket_manager_spec.rb
+require 'spec_helper'
+
 RSpec.describe BasketManager do
-  let(:manager) { BasketManager.new }
+  subject(:basket_manager) { described_class.new }
 
-  it 'adds items to basket' do
-    manager.add_item(:apple)
-    expect(manager.items).to eq([:apple])
+  describe '#add_item' do
+    it 'adds an item to the basket' do
+      basket_manager.add_item(:apple)
+      expect(basket_manager.items).to eq([:apple])
+    end
+
+    it 'converts string items to symbols' do
+      basket_manager.add_item('apple')
+      expect(basket_manager.items).to eq([:apple])
+    end
+
+    it 'maintains order of added items' do
+      basket_manager.add_item(:apple)
+      basket_manager.add_item(:orange)
+      basket_manager.add_item(:apple)
+      expect(basket_manager.items).to eq(%i[apple orange apple])
+    end
   end
-end
 
-# spec/pricing_calculator_spec.rb
-RSpec.describe PricingCalculator do
-  let(:rules) { { apple: 10, banana: 30 } }
-  let(:calculator) { PricingCalculator.new(rules) }
-
-  describe '#calculate_total' do
-    it 'handles two for one on apples' do
-      expect(calculator.calculate_total(%i[apple apple])).to eq(10)
+  describe '#items' do
+    it 'returns an empty array for new basket' do
+      expect(basket_manager.items).to be_empty
     end
 
-    it 'handles half price bananas' do
-      expect(calculator.calculate_total([:banana])).to eq(15)
-    end
-
-    it 'raises error for invalid items' do
-      expect { calculator.calculate_total([:invalid]) }.to raise_error(InvalidItemError)
+    it 'returns a copy of the basket' do
+      basket_manager.add_item(:apple)
+      items = basket_manager.items
+      items << :orange
+      expect(basket_manager.items).to eq([:apple])
     end
   end
 end
