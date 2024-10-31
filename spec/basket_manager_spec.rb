@@ -1,3 +1,13 @@
+# spec/basket_manager_spec.rb
+RSpec.describe BasketManager do
+  let(:manager) { BasketManager.new }
+
+  it 'adds items to basket' do
+    manager.add_item(:apple)
+    expect(manager.items).to eq([:apple])
+  end
+end
+
 # spec/pricing_calculator_spec.rb
 RSpec.describe PricingCalculator do
   let(:rules) { { apple: 10, banana: 30 } }

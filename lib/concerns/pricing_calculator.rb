@@ -1,8 +1,30 @@
 # lib/concerns/pricing_calculator.rb
+require_relative 'checkout_logger'
+require_relative 'checkout_error'
+
 class PricingCalculator
   def initialize(pricing_rules)
     validate_pricing_rules(pricing_rules)
     @pricing_rules = pricing_rules
+    CheckoutLogger.logger.info("PricingCalculator initialized with rules: #{pricing_rules}")
+  end
+
+  def calculate_total(basket)
+    CheckoutLogger.logger.info("Starting calculation for basket: #{basket}")
+    total = 0
+    item_counts = count_items(basket)
+
+    item_counts.each do |item, count|
+      item_total = get_price_with_discount(item, count)
+      CheckoutLogger.logger.info("#{item} x#{count} = #{item_total}")
+      total += item_total
+    rescue StandardError => e
+      CheckoutLogger.logger.error("Error calculating price for #{item}: #{e.message}")
+      raise
+    end
+
+    CheckoutLogger.logger.info("Final total: #{total}")
+    total
   end
 
   private
@@ -14,8 +36,6 @@ class PricingCalculator
       raise InvalidPriceError, "Invalid price for #{item}: #{price}" unless price.is_a?(Numeric) && price > 0
     end
   end
-
-  private
 
   def count_items(basket)
     counts = Hash.new(0)
@@ -53,6 +73,8 @@ class PricingCalculator
   end
 
   def apply_first_item_half_price(price, count)
+    return price / 2 if count == 1
+
     first_item = price / 2
     rest_items = price * (count - 1)
     first_item + rest_items

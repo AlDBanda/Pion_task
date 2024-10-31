@@ -1,5 +1,5 @@
-require_relative 'basket_manager'
-require_relative 'pricing_calculator'
+require_relative 'concerns/basket_manager'
+require_relative 'concerns/pricing_calculator'
 
 class Checkout
   attr_reader :basket_manager, :pricing_calculator

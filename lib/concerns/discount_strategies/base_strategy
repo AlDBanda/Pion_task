@@ -1,0 +1,6 @@
+# lib/concerns/discount_strategies/base_strategy.rb
+class BaseDiscountStrategy
+  def calculate(price, count)
+    price * count
+  end
+end

@@ -6,13 +6,3 @@ class FirstItemHalfPriceStrategy
   end
 end
 
-# lib/discount_strategies/buy_three_get_one_free.rb
-class BuyThreeGetOneFreeStrategy
-  def calculate(price, count)
-    if (count % 4).zero?
-      price * (count - (count / 4))
-    else
-      price * count
-    end
-  end
-end
